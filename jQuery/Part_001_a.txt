@@ -1,0 +1,44 @@
+$
+ƒ (a,b){return new r.fn.init(a,b)}
+$('h1')
+r.fn.init [h1, prevObject: r.fn.init(1)]
+$('li')
+r.fn.init(6) [li, li, li, li, li, li#special, prevObject: r.fn.init(1)]
+var x = $('h1')
+undefined
+x.css('color', 'red')
+r.fn.init [h1, prevObject: r.fn.init(1)]
+x.css('background', 'blue')
+r.fn.init [h1, prevObject: r.fn.init(1)]
+var newCSS = {
+    'color': 'white',
+    'background': 'blue',
+    'border': 'red'
+}
+undefined
+x.css(newCSS)
+r.fn.init [h1, prevObject: r.fn.init(1)]
+var newCSS = {
+    'color': 'white',
+    'background': 'blue',
+    'border': '20 px solid red'
+}
+undefined
+x.css(newCSS)
+r.fn.init [h1, prevObject: r.fn.init(1)]
+var newCSS = {
+    'color': 'white',
+    'background': 'blue',
+    'border': '20px solid red'
+}
+undefined
+x.css(newCSS)
+r.fn.init [h1, prevObject: r.fn.init(1)]
+var listItems = $('li')
+undefined
+listItems.css('color', 'blue')
+r.fn.init(6) [li, li, li, li, li, li#special, prevObject: r.fn.init(1)]
+listItems.eq(0).css('color', 'red')
+r.fn.init [li, prevObject: r.fn.init(6)]
+listItems.eq(-1).css('color', 'red')
+r.fn.init [li#special, prevObject: r.fn.init(6)]

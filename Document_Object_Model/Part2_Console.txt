@@ -1,0 +1,29 @@
+var p = document.querySelector('p')
+undefined
+p
+<p>​…​</p>​"To Edit Styles, we've already seen we can use the .style tag.
+      Now if we want to edit "<strong>​actual html or text​</strong>​" or
+      "<a href=​"http:​/​/​www.google.com">​attributes​</a>​" we can use different methods.
+       If you want to change the text,html content, or attributes you can use the following:
+    "</p>​
+p.textContent = 'Set new text from Java Script'
+"Set new text from Java Script"
+p.innerHTML = '<strong>'+p.textContent+'</string>'
+"<strong>Set new text from Java Script</string>"
+var special = document.querySelector('#special')
+undefined
+special
+<h4 id=​"special">​…​</h4>​"I am another "<em>​header​</em>​" with the special id.
+      "<a href=​"https:​/​/​www.facebook.com">​FACEBOOK LINK​</a>​</h4>​
+var specialA = special.querySelector('a')
+undefined
+specialA
+<a href=​"https:​/​/​www.facebook.com">​FACEBOOK LINK​</a>​
+specialA.getAttribute('href')
+"https://www.facebook.com"
+specialA.getAttribute('href')
+"https://www.facebook.com"
+specialA.setAttribute('href', 'https://amazon.com')
+undefined
+specialA
+<a href=​"https:​/​/​amazon.com">​FACEBOOK LINK​</a>​

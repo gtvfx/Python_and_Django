@@ -1,0 +1,20 @@
+VM330:1 Console was cleared
+undefined
+$('h1').text('New text')
+r.fn.init [h1, prevObject: r.fn.init(1)]
+$('h1').html('<em>new</em>')
+r.fn.init [h1, prevObject: r.fn.init(1)]
+$('input')
+r.fn.init(2) [input, input, prevObject: r.fn.init(1)]
+$('input').eq(1).attr('type', 'checkbox')
+r.fn.init [input, prevObject: r.fn.init(2)]
+$('input').eq(0).val('New val')
+r.fn.init [input, prevObject: r.fn.init(2)]
+$('h1').addClass('turnRed')
+r.fn.init [h1.turnRed, prevObject: r.fn.init(1)]
+$('h1').removeClass('turnRed')
+r.fn.init [h1, prevObject: r.fn.init(1)]
+$('h1').toggleClass('turnBlue')
+r.fn.init [h1.turnBlue, prevObject: r.fn.init(1)]
+$('h1').toggleClass('turnBlue')
+r.fn.init [h1, prevObject: r.fn.init(1)]
