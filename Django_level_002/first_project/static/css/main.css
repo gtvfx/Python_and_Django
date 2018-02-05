@@ -1,0 +1,13 @@
+.container{
+    background-color: red;
+    text-align: center;
+}
+
+.jumbotron{
+    background-color: darkgray;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(95, 95, 95);
+}
